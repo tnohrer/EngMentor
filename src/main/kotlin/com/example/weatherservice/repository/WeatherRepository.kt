@@ -9,7 +9,7 @@ import reactor.core.publisher.Mono
 class WeatherRepository {
 
     // Moved to application properties
-    private val apiKey = "294453e70380ebba19aa7a1e8db77e4b"
+    private val apiKey = "ENTER YOUR KEY"
     private val weatherBaseUrl = "https://api.openweathermap.org/data/3.0/onecall"
     private val geocodingBaseUrl = "http://api.openweathermap.org/geo/1.0/direct"
 
