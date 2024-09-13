@@ -6,7 +6,7 @@ import org.springframework.web.client.RestTemplate
 class WeatherService(
     private val restTemplate: RestTemplate
 ) {
-    val apiKey = "294453e70380ebba19aa7a1e8db77e4b"
+    val apiKey = "ENTER YOUR KEY"
     val baseUrl = "https://api.openweathermap.org/data/3.0/onecall"
 
 
