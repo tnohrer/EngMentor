@@ -1,9 +1,9 @@
 package com.example.weatherservice.repository
 
 import com.example.weatherservice.controller.WeatherResponse
-import kotlinx.coroutines.reactor.awaitBody
 import org.springframework.stereotype.Repository
 import org.springframework.web.reactive.function.client.WebClient
+import org.springframework.web.reactive.function.client.awaitBody
 
 @Repository
 class WeatherRepository {
